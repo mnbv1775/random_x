@@ -1,7 +1,7 @@
 import random
-from random_yangyuchen.data.name_cn import *
-from random_yangyuchen.data.name_en import *
-from random_yangyuchen.data.name_yueyu import *
+from random_x.data.name_cn import *
+from random_x.data.name_en import *
+from random_x.data.name_yueyu import *
 from pypinyin import lazy_pinyin
 def text_name_random(text=''):
     while '{name_firstname_yueyu}' in text:

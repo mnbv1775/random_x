@@ -1,6 +1,6 @@
-from random_yangyuchen.data.word_cn import *
-from random_yangyuchen.data.word_en import *
-from random_yangyuchen.data.word_nike_en import *
+from random_x.data.word_cn import *
+from random_x.data.word_en import *
+from random_x.data.word_nike_en import *
 import random
 from pypinyin import lazy_pinyin
 

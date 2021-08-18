@@ -1,9 +1,9 @@
-from random_yangyuchen.word import *
-from random_yangyuchen.name import *
-from random_yangyuchen.date import *
-from random_yangyuchen.common import *
+from random_x.word import *
+from random_x.name import *
+from random_x.date import *
+from random_x.common import *
 
-def random_yangyuchen(text=''):
+def random_x(text=''):
     text = text_common_random(text)
     text = text_word_random(text)
     text = text_name_random(text)
@@ -12,4 +12,4 @@ def random_yangyuchen(text=''):
     return text
 
 if __name__ == '__main__':
-    print(random_yangyuchen('{n}{Z}{rz}{word_nike}'))
+    print(random_x('{n}{Z}{rz}{word_nike}'))

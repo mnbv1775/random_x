@@ -1,1 +1,1 @@
-from random_yangyuchen.main import *
+from random_x.main import *

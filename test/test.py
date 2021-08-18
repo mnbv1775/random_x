@@ -5,4 +5,4 @@ with open('textPool.txt', 'r') as f:
 #for i in pool:
     #print(random_yangyuchen(i))
 for i in range(100):
-    print(random_yangyuchen(random.choice(pool)))
+    print(random_x(random.choice(pool)))
